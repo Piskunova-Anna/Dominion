@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    background: url('../../images/back.png') no-repeat;
+    z-index: 1;
+    min-height: 930px;
+}

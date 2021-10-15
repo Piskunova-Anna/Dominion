@@ -1,0 +1,15 @@
+.property__block {
+    display: flex;
+    border-radius: 30px;
+    background: rgba(227, 228, 250, .5);
+    box-shadow: 20px 20px 15px 0 rgba(126, 129, 132, .35);
+    color: #4B0082;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    justify-content: center;
+    text-decoration: none;
+    min-height: 120px;
+    align-items: center;
+}

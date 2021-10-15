@@ -1,0 +1,7 @@
+.property{
+    display: flex;
+    flex-direction: column;
+    max-width: 1304px;
+    width: 100%;
+    margin: 35px auto 0;
+}

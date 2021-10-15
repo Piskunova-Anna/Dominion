@@ -1,0 +1,13 @@
+.news__top {
+    display: flex;
+    color: #4B0082;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    justify-content: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 50px;
+}
