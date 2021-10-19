@@ -9,6 +9,11 @@
     font-weight: normal;
     font-size: 36px;
     line-height: 44px;
-    margin-right: 200px;
-    margin-top: 15px;
+    margin: 15px 200px 0 0;
+}
+
+@media screen and (max-width: 550px) {
+    .contacts {
+        margin: auto;
+    }
 }
