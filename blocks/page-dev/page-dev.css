@@ -1,0 +1,23 @@
+.page-dev {
+    display: flex;
+    position: relative;
+    background: url(../../images/back.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    color: white;
+    font-size: 64px;
+}
+
+@media screen and (max-width: 787px) {
+    .page-dev {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .page-dev {
+        font-size: 26px;
+    }
+}

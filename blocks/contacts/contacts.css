@@ -1,0 +1,19 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 15px 200px 0 0;
+}
+
+@media screen and (max-width: 550px) {
+    .contacts {
+        margin: auto;
+    }
+}
