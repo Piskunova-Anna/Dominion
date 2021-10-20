@@ -20,3 +20,5 @@
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/none/none.css);
+@import url(../blocks/page-dev/page-dev.css);
+@import url(../blocks/page-dev/__back/page-dev__back.css);
