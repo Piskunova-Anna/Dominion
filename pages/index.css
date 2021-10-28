@@ -3,6 +3,7 @@
 @import url(../blocks/header/__top/header__top.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/header/_search/header_search.css);
 @import url(../blocks/property/property.css);
 @import url(../blocks/property/__grid/property__grid.css);
 @import url(../blocks/property/_estate/property_estate.css);

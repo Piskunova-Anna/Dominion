@@ -3,4 +3,5 @@
     flex-direction: column;
     margin: auto;
     background-color: #98C5EE;
+    min-height: 100vh;
 }
