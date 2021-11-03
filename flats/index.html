@@ -16,30 +16,47 @@
     <meta name="author" content="Anna Piskunova" />
   </head>
 
-  <body>
+  <body class="page">
     <header class="header header_search">
-    <!--<header>-->
-      <!--<h1 class="header__logo">Доминион</h1>-->
-      <h1>Доминион</h1>
-      <nav class="header__nav">
-        <a href = '../index.html' class="header__nav_block">Главная</a>
-        <a href = '/' class="header__nav_block">Квартиры</a>
-        <a href = '../new-flats/index.html' class="header__nav_block">Новостройки</a>
-        <a href = '../rooms/index.html' class="header__nav_block">Комнаты</a>
-        <a href = '../houses/index.html' class="header__nav_block">Дома</a>
-        <a href = '../plots/index.html' class="header__nav_block">Участки</a>
-        <a href = '../ofiices/index.html' class="header__nav_block">Офисы</a>
-        <a href = '../earth/index.html' class="header__nav_block">Земля</a>
-        <a href = '../buildings/index.html' class="header__nav_block">Здания</a>
-        <a href = '../news/index.html' class="header__nav_block">Новости</a>
-      </nav>
+      <!--<header>-->
+      <h1 class="header__logo header__logo_search">Доминион</h1>
+      <!--<h1>Доминион</h1>-->
     </header>
-    <!--<main class="page">-->
-      <!--<main>
-      <section class="flex-table"></section>
+    <main class="page page_search">
+      <!--<main>-->
+      <div class="header__nav">
+        <nav class = 'header__nav_mob'>
+        <a href="../index.html" class="header__nav_block">Главная</a>
+        <a href="/" class="header__nav_block header_active">Квартиры</a>
+        <a href="../new-flats/index.html" class="header__nav_block"
+          >Новостройки</a
+        >
+        <a href="../rooms/index.html" class="header__nav_block">Комнаты</a>
+        <a href="../houses/index.html" class="header__nav_block">Дома</a>
+        <a href="../plots/index.html" class="header__nav_block">Участки</a>
+        <a href="../ofiices/index.html" class="header__nav_block">Офисы</a>
+        <a href="../earth/index.html" class="header__nav_block">Земля</a>
+        <a href="../buildings/index.html" class="header__nav_block">Здания</a>
+        <a href="../news/index.html" class="header__nav_block">Новости</a>
+      </nav>
+      </div>
+      <section class="flex-table">
+        <article class="object">
+          <img src="../images/pexels-photo-1370704.jpg" alt="фото" class="object__photo">
+          <div class="object__about">
+            <article class = 'object__name object__price'>Цена:<p class="object__price">3 000 000</p></article>
+            <article class = 'object__name'>Адрес:<p class="object__block object__address">М.Тухачевского, 31</p></article>
+            <article class = 'object__name'>Метро:<p class="object__block object__metro">Новочеркасская</p></article>
+            <article class = 'object__name'>Этаж:<p class="object__block object__level">5/16</p></article>
+            <article class = 'object__name'>Количество комнат:<p class="object__block object__num">1</p></article>
+          </div>
+          <div class = 'object__text-block'><h2 class = 'object__head'>Описание</h2><p class="object__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt nisi in iaculis accumsan. Sed dictum nulla ac quam sodales ultrices. Suspendisse eu commodo ex. Phasellus efficitur metus id urna luctus ultricies. Vivamus finibus neque ante, id interdum magna pulvinar ut. Integer ornare interdum velit, eget pulvinar lectus hendrerit ac. Fusce in est fermentum, mollis nulla a, volutpat turpis. Cras lacus lorem, aliquet eu nisi eget, feugiat hendrerit libero. Etiam ut est sit amet nisi posuere posuere eu accumsan nibh. Nullam eget maximus nisi. Maecenas luctus varius massa, in eleifend nunc convallis eget.
+          </p></div>
+        </article>
+      </section>
       <template class="template__object">
         <article class="object">
-          <img src="" alt="" class="object__photo" />
+          <img src="" alt="" class="object__photo">
           <p class="object__price"></p>
           <p class="object__address"></p>
           <p class="object__metro"></p>
@@ -48,9 +65,9 @@
           <p class="object__text"></p>
         </article>
       </template>
-    </main>-->
+    </main>
     <!--<footer class="footer">-->
-      <!--<footer>
+    <!--<footer>
       <p class="footer__logo">Доминион</p>
       <p class="footer__author">&copy; 2021.Пискунова Анна</p>
       <ul class="contacts">
