@@ -1,0 +1,6 @@
+.object__text-block {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    margin: auto 50px;
+}

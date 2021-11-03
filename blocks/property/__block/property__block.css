@@ -1,9 +1,9 @@
 .property__block {
     display: flex;
     border-radius: 30px;
-    background: rgba(227, 228, 250, .5);
-    box-shadow: 20px 20px 15px 0 rgba(126, 129, 132, .35);
-    color: #4B0082;
+    background: rgba(255, 244, 228, .9);
+    box-shadow: 15px 15px 15px 0 rgba(255, 255, 255, .6);
+    color: #BC7203;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -29,6 +29,8 @@
     .property__block {
         min-height: 135px;
         max-width: 284px;
+        background: rgba(254, 224, 180, .9);
+        box-shadow: 15px 15px 15px 0 rgba(207, 91, 0, .6);
     }
 }
 

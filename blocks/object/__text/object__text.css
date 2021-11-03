@@ -1,0 +1,5 @@
+.object__text {
+    max-width: 620px;
+    height: 320px;
+    overflow: hidden;
+}

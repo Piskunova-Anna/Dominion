@@ -1,0 +1,7 @@
+.object__about {
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+    height: 100%;
+    margin: auto 0;
+}

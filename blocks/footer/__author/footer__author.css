@@ -9,7 +9,7 @@
     margin: 25px 0 15px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 580px) {
     .footer__author {
         display: none;
     }

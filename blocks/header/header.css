@@ -11,8 +11,8 @@
 @media screen and (min-width: 820px) {
     .header {
         overflow: hidden;
-        background: url('../../images/back.png') no-repeat;
-        background-size: contain;
+        background: url('../../images/back.jpg') no-repeat;
+        background-size: cover;
     }
     .header::before {
         z-index: -1;
