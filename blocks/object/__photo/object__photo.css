@@ -1,0 +1,7 @@
+.object__photo {
+    width: 270px;
+    height: 360px;
+    background-size: cover;
+    border: 3px solid #9d9d9d;
+    margin: auto 50px
+}

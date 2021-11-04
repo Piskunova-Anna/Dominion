@@ -1,0 +1,19 @@
+.header__logo_search {
+    min-height: 230px;
+    align-items: center;
+    margin: 0 0 0 50px;
+}
+
+@media screen and (max-width: 1240px) {
+    .header__logo_search {
+        font-size: 72px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__logo {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}

@@ -1,8 +1,8 @@
 .page {
-    font-family: 'Cormorant', sans-serif;
     display: flex;
+    font-family: 'Cormorant'/*, 'Arial', 'sans-serif'*/;
     flex-direction: column;
     margin: auto;
-    background-color: #98C5EE;
+    background-color: #FFF4E4;
     min-height: 100vh;
 }

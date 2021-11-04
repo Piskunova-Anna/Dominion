@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: 1440px;
     width: 91%;
-    margin: 35px auto 0;
+    margin: 35px auto 50px;
 }
 
 .property:last-of-type {
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1240px) {
     .property {
-        margin: 100px auto 0;
+        margin: 100px auto 50px;
         max-width: 1038px;
         width: 86%;
     }
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1024px) {
     .property {
-        margin: 40px auto 0;
+        margin: 40px auto 50px;
         max-width: 924px;
         width: 91%;
     }
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 550px) {
     .property {
-        margin: 30px auto 0;
+        margin: 30px auto 50px;
     }
     .property:last-of-type {
         margin: 30px auto 40px;

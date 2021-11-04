@@ -3,11 +3,11 @@
     font-size: 72px;
     line-height: 87px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 400;
     margin-block-start: 0;
     margin-block-end: 0;
     margin: 19px 0 19px 50px;
-    color: #4B0082;
+    color: #FFAB2D;
 }
 
 @media screen and (max-width: 1240px) {
