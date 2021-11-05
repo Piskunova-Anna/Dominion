@@ -31,6 +31,7 @@
 @import url(../blocks/flex-table/flex-table.css);
 @import url(../blocks/object/object.css);
 @import url(../blocks/object/__name/object__name.css);
+@import url(../blocks/object/_mob/object_mob.css);
 @import url(../blocks/object/__about/object__about.css);
 @import url(../blocks/object/__block/object__block.css);
 @import url(../blocks/object/__photo/object__photo.css);

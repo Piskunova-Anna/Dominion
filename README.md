@@ -8,11 +8,11 @@
 
 * HTML5
 * CSS3
-* ES6 (планируется)
+* ES6
 * REST API (планируется)
 * Grid
 * Flex
-* адаптивная верстка (в разработке)
+* адаптивная верстка
 * кроссбраузерная верстка (планируется)
 
 **Что планируется**
@@ -30,3 +30,7 @@
 **Ссылка на макет**
 
 https://www.figma.com/file/6iSTRGRHEF6D5SCntgejA8/Dominion?node-id=4%3A5 (дорабатывается)
+
+**Ссылка на репозиторий:**
+
+https://piskunova-anna.github.io/Dominion/
