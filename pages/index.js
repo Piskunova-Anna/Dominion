@@ -1,5 +1,4 @@
 import { flats, flexTable, popupPicture, popupfullPic, popupPicName, arrow, arrowLeft, arrowRight } from '../utils/constants.js';
-import { flats, flexTable } from '../utils/constants.js';
 import { Card } from '../components/Card.js';
 import { Section } from '../components/Section.js';
 import { PopupWithImage } from '../components/PopupWithImage.js';
