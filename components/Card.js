@@ -29,7 +29,7 @@ export class Card {
 
         this._element.querySelector('.object__photo_id').src = this._photo;
         this._element.querySelector('.object__photo').alt = this._alt;
-        this._element.querySelector('.object__cost').textContent = this._price;
+        this._element.querySelector('.object__price').textContent = this._price;
         this._element.querySelector('.object__address').textContent = this._address;
         this._element.querySelector('.object__metro').textContent = this._metro;
         this._element.querySelector('.object__level').textContent = this._level;
