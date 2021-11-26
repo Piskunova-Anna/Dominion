@@ -3,7 +3,8 @@
     height: 360px;
     background-size: cover;
     border: 3px solid #9d9d9d;
-    margin: auto 50px
+    margin: auto 50px;
+    position: relative;
 }
 
 @media screen and (max-width: 1240px) {

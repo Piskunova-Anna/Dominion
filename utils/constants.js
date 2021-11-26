@@ -38,3 +38,9 @@ export const flats = [
 ];
 
 export const flexTable = document.querySelector(".flex-table");
+export const popupPicture = document.querySelector('.popup__picture');
+export const popupfullPic = document.querySelector('.popup__full-picture');
+export const popupPicName = document.querySelector('.popup__image-name');
+export const arrowLeft = document.querySelector('.object__arrow_left');
+export const arrowRight = document.querySelector('.object__arrow_right');
+export const arrow = document.querySelector('.object__arrow');

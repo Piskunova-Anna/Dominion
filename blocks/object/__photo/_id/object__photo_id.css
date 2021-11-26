@@ -1,0 +1,24 @@
+.object__photo_id {
+  display: flex;
+  background-size: cover;
+  width: 270px;
+  height: 360px;
+}
+
+@media screen and (max-width: 1240px) {
+  .object__photo_id {
+      width: 230px;
+      height: 310px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .object__photo_id {
+      width: 200px;
+      height: 260px;
+  }
+}
+
+.object__photo_id:hover {
+  cursor: pointer;
+}

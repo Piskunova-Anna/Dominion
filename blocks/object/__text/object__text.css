@@ -7,6 +7,7 @@
     margin-block-end: 0;
     font-size: 24px;
     line-height: 29px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1240px) {

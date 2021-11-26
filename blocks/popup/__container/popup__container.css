@@ -1,0 +1,23 @@
+.popup__container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    position: fixed;
+    z-index: 5;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .popup__container {
+        max-width: 320px;
+    }
+}
+
+.popup__container .object__arrow_right {
+    right: -35px;
+}
+
+.popup__container .object__arrow_left {
+    left: -35px;
+}

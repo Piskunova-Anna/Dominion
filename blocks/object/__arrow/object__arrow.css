@@ -1,0 +1,15 @@
+.object__arrow {
+  display: flex;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid #9d9d9d;
+  border-right: 5px solid #9d9d9d;
+  top: 45%;
+  transition: opacity 1s linear;
+}
+
+.object__arrow:hover{
+  opacity: .8;
+  cursor: pointer;
+}
