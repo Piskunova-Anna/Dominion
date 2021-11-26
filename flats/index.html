@@ -3,10 +3,10 @@
   <head>
     <title>Квартиры</title>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="" />
+    <link rel="icon" type="image" href="../images/house-key-6544495_960_720.webp" />
     <link rel="stylesheet" href="/pages/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--<meta name="robots" content="index, follow">-->
+    <meta name="robots" content="index, follow">
     <meta
       name="keywords"
       content="недвижимость в спб, спб квартиры, купить квартиру в спб, питер квартиры"
@@ -18,19 +18,14 @@
 
   <body class="page">
     <header class="header header_search">
-      <!--<header>-->
       <h1 class="header__logo header__logo_search">Доминион</h1>
-      <!--<h1>Доминион</h1>-->
     </header>
     <main class="page page_search">
-      <!--<main>-->
       <div class="header__nav">
         <nav class="header__nav_mob">
-          <a href="../index.html" class="header__nav_block">Главная</a>
+          <a href="../" class="header__nav_block">Главная</a>
           <a href="" class="header__nav_block header_active">Квартиры</a>
-          <a href="../new-flats/index.html" class="header__nav_block none"
-            >Новостройки</a
-          >
+          <a href="../new-flats/index.html" class="header__nav_block none">Новостройки</a>
           <a href="../rooms/index.html" class="header__nav_block none">Комнаты</a>
           <a href="../houses/index.html" class="header__nav_block none">Дома</a>
           <a href="../plots/index.html" class="header__nav_block none">Участки</a>
@@ -40,18 +35,36 @@
           <a href="../news/index.html" class="header__nav_block none">Новости</a>
         </nav>
       </div>
-      <section class="flex-table">
-      </section>
+      <section class="flex-table"></section>
       <template class="template__object">
         <article class="object">
           <div class="object_mob">
-            <img src="" alt="" class="object__photo">
+            <div class="object__photo">
+              <div class="object__arrow object__arrow_left"></div>
+              <img src="" alt="" class="object__photo_id" />
+              <div class="object__arrow object__arrow_right"></div>
+            </div>
             <div class="object__about">
-              <article class="object__name object__price">Цена:<p class="object__price"></p></article>
-              <article class="object__name">Адрес:<p class="object__block object__address"></p></article>
-              <article class="object__name">Метро:<p class="object__block object__metro"></p></article>
-              <article class="object__name">Этаж:<p class="object__block object__level"></p></article>
-              <article class="object__name">Количество комнат:<p class="object__block object__num"></p></article>
+              <article class="object__name object__price">
+                Цена:
+                <p class="object__price object__cost"></p>
+              </article>
+              <article class="object__name">
+                Адрес:
+                <p class="object__block object__address"></p>
+              </article>
+              <article class="object__name">
+                Метро:
+                <p class="object__block object__metro"></p>
+              </article>
+              <article class="object__name">
+                Этаж:
+                <p class="object__block object__level"></p>
+              </article>
+              <article class="object__name">
+                Кол-во комнат:
+                <p class="object__block object__num"></p>
+              </article>
             </div>
           </div>
           <div class="object__text-block">
@@ -73,6 +86,13 @@
         <li class="contact"></li>
       </ul>
     </footer>
-    <script type = 'module' src = '../pages/index.js'></script>
+    <section class="popup popup__picture">
+      <div class="popup__container">
+        <button type="button" class="popup__close-icon popup__close-icon_fullscreen"></button>
+        <div class = 'object__arrow object__arrow_left'></div>
+        <img src="#" alt="#" class="popup__full popup__full-picture">
+        <div class = 'object__arrow object__arrow_right'></div>
+    </section>
+    <script type="module" src="../pages/index.js"></script>
   </body>
 </html>
